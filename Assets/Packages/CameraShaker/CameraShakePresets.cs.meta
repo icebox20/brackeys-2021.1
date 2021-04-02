@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c9fa2c432800dd942b4a2aa6b2f432e6
+labels:
+- Shake
+- Camera
+- Follow
+- Animation
+- Effect
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

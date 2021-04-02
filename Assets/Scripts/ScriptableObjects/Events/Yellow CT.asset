@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78ce18834de68045909ba616a46d88e, type: 3}
+  m_Name: Yellow CT
+  m_EditorClassIdentifier: 
+  name: Yellow Car
+  car: {fileID: 5685434597514397313, guid: 6511068c23e60f5468a52833b26e5f29, type: 3}
+  timeLimit: 60
+  tasks:
+  - {fileID: 11400000, guid: 8511924b1a4c6114f8b233a0267bf777, type: 2}
+  onFail: 50
+  onSuccess: 50
+  carIcon: {fileID: 21300000, guid: 12cde953f26b0104da3d19d8d669e407, type: 3}

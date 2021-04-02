@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78ce18834de68045909ba616a46d88e, type: 3}
+  m_Name: Orange CW CT
+  m_EditorClassIdentifier: 
+  name: Orange Car
+  car: {fileID: 5182476214232171611, guid: 3b4f066032e04e447b724c14eb98d61d, type: 3}
+  timeLimit: 60
+  tasks:
+  - {fileID: 11400000, guid: 8511924b1a4c6114f8b233a0267bf777, type: 2}
+  - {fileID: 11400000, guid: 72d6bcfd28cd80f46bf0b251b22bef84, type: 2}
+  onFail: 50
+  onSuccess: 50
+  carIcon: {fileID: 21300000, guid: 65fe11e8f90232f4e9e9d3d1fdc88e43, type: 3}

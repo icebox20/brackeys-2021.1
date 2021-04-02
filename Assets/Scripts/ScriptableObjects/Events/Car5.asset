@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78ce18834de68045909ba616a46d88e, type: 3}
+  m_Name: Car5
+  m_EditorClassIdentifier: 
+  name: White Car
+  car: {fileID: 2413007315490479982, guid: a79d2c4fd2c89bf49ad98997ea73ce81, type: 3}
+  timeLimit: 60
+  tasks:
+  - {fileID: 11400000, guid: b2542e1d9fc0cc04a8f294c3a9e0cc91, type: 2}
+  - {fileID: 11400000, guid: b2542e1d9fc0cc04a8f294c3a9e0cc91, type: 2}
+  - {fileID: 11400000, guid: 72d6bcfd28cd80f46bf0b251b22bef84, type: 2}
+  onFail: 50
+  onSuccess: 50
